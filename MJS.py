@@ -78,8 +78,8 @@ strategy_stats = pd.DataFrame(KPI.values(),index = KPI.keys(),columns = [' '])
 #MarketScanner Logo
 # img = mpimg.imread('ms_logo.png')
 # st.image(img,width = 700)
-html = f"<a href='https://www.marketscanner.in'><img src='http://marketscanner.in/wp-content/uploads/2020/07/rsz_ms-logo-1.png' width = '700' height = '160'></a>"
-st.markdown(html, unsafe_allow_html=True)
+#html = f"<a href='https://www.marketscanner.in'><img src='http://marketscanner.in/wp-content/uploads/2020/07/rsz_ms-logo-1.png' width = '700' height = '160'></a>"
+#st.markdown(html, unsafe_allow_html=True)
 
 #Content and charts on the webapp
 st.markdown("<h1 style='text-align: center; color: black;'>Live Performance of MJS Strategy </h1>", unsafe_allow_html=True)
